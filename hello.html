@@ -3,35 +3,62 @@
 
 <head>
 	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<style>
+		.list{
+			list-style: none;
+			padding: 0;
+			width: 30%;
+			background-color: #D2E9FF;
+		}
+
+		.list li{
+			padding: 14px 20px;
+			text-align: center;
+		}
+
+		.list li:hover {
+			background-color: #FFECF5;
+		}
+
+		a{
+			color: white;
+			font-family: Times;
+		}
+
+	</style>
 </head>
 
 <body>
-Hello world
 
-	<h1>Hypetext Markup Language<b><i>(HTML)</i></b><h1>
+	<h1>Hello world</h1>
+	<h1>HTML Styles - CSS</h1>
+	<p>CSS stands for Cascading Styles Sheets</p>
 
-	<div style = "color:#00CACA">
-		<h5>hi<h5>
+	<div class="trouble">
+	CSS saves a lot of work
 	</div>
 
-	<a href = "https://www.nccu.edu.tw/">NCCU Homepage</a>
+	<div style="color: green">
+		It can control the layout of <span>multiple web pages</span> all at once
+	</div>
 
-	<p>Click <a href = "mailto:109306046@nccu.edu.tw">here</a>
-	to launch the default e-mail program.</p>
+	<h3><p>Hypetext Markup Language(HTML)<br>1. Use padding and margin to generate space around contents or elements<br>
+	2. Create a headline in your table and use the float property to emphasize it<br>
+	3. Add a figure and put it on the top rightAll the padding properties can have the following values:<br> - length ‐ specifies a padding in px, pt, cm, etc.<br>
+	- % ‐ specifies a padding in % of the width of the containing element<br> - inherit ‐ padding should be inherited from the parent elements
+	</p></h3>
 
-	<p>
-		<a href = "https://www.netflix.com/browse">
+	<ul class="list">
+		<li><a href = "https://www.netflix.com/browse">
 			<img src = "download.png" 
 				 width = "100" height = "100" alt = "Netflix">
-		</a>
-	</p>
-	
-	<p>
-		<a href = "https://winona1111.github.io/eforlad/">
-			<img src = "images/logo.png" 
-				 width = "100" height = "100" alt = "Web">
-		</a>
-	</p>
+		</a></li>
 
+		<li><a href = "https://winona1111.github.io/eforlad/">
+			<img src = "images/logo.png" 
+				 width = "250" height = "100" alt = "Web">
+		</a></li>
+	</ul>
 </body>
 </html>
