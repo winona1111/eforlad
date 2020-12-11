@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>HW 12/11</title>
 </head>
 <body>
 	<script type="text/javascript">
 
 		var num = Math.floor((Math.random()*10)+1);
 		a = window.prompt("Guess a number from 1-10");
-		while(a!= num)
+		print(a);
+		
+		function print(a)
 		{
-			a = window.prompt("Guess again!");
+			while(a!= num)
+			{
+				a = window.prompt("Guess again!");
+			}
+			alert("Congratulation!");
 		}
-		alert("Congratulation!");
-
 	</script>
 </body>
 </html>
